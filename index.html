@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ro">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <header>
+            <h1> John Microsoft </h1>
+            <p> Facultatea de Inginerie Electrica si Stiinta Calculatoarelor </p>
+        </header>
+
+        <nav id="meniu">
+            <ul class="button">
+                <li><a href="#home">Acasa</a></li>
+                <li><a href="#education">Educatie</a></li>
+                <li><a href="#about">Despre</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+
+        <main>
+            <section id="home">
+                <h2>Acasa</h2>
+                <p>Acesta este un test pentru a vedea ce imi mai amitnesc din html</p>
+            </section>
+            <section id="about">
+                <h2>Despre Mine</h2>
+                <img src="profil.jpg"
+                    alt="Fotografie de Profil"
+                    loading="lazy"
+                    width="200">
+
+                <p>
+                    Vocalist la trupa "Coding and Beer". Momentan ia o pauza de la muzica pentru a invata mai in detaliu cum se simte disperarea unui programator
+                </p>
+            </section>
+
+            <section id="education">
+                <h2>Educatie</h2>
+                <ol>
+                    <li>Am terminat liceul Mihai Eminescu de muzica si alcool din judetul Buzau la sectia de matematica-informatica</li>
+                    <li>am intrat la Universitatea UNITBV, facultatea de Inginerie Electrica si Stiinta Calculatoarelor cu media de 6,66</li>
+                    <aside><p>"Invatarea este un proces continuu" - John Microsoft</p></aside>
+                </ol>
+                
+            </section>
+
+            <aside>
+                <h2>Hobby-uri</h2>
+                <ol>
+                    <li>Codare</li>
+                    <li>Bere</li>
+                    <li>Muzica</li>
+                </ol>
+            </aside>
+        </main>
+
+        <footer id="contact">
+            <script src="js/contact_form.js"></script>
+            <p>Contact: johnmicrosoft04@codingandbeer.com</p>
+            <form>
+                
+                <label for="name"> Nume:</label>
+                <input type="text" id="name" name="name" required>
+                <br>
+                <label for="email"> Email:</label>
+                <input type="text" id="email" email="email" required>
+                <br>
+                <label for="message"> Message:</label>
+                <input type="text" id="message" message="message" rows="4" required> 
+                <br>
+                <input type="button" onclick=submitForm() value="Trimite">
+            </form>
+             
+        </footer>
+    </body>
+
+    <script>
+        alert("GET READY FOR CODING MUSIC AND BEER!");
+    </script>
+
+</html>
